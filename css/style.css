@@ -766,7 +766,7 @@ button:hover {
 }
 .what_we_area .construction_iner .construction .cns-content {
   background: #fff;
-  padding: 0 30px;
+  padding: 0 10px;
   padding-bottom: 20px;
   margin-top: -30px;
 }
@@ -3031,3 +3031,11 @@ button:hover {
 /*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
+
+.img_scale {
+  transition: 1s;
+}
+
+.img_scale:hover {
+  transform: scale(2); /* Увеличиваем масштаб */
+}
