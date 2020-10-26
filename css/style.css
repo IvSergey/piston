@@ -3285,7 +3285,7 @@ textarea {
   transition: 0.45s ease-out;
 }
 .sidebar_item.active {
-  background-color: #24bee8;
+  background-color: #0b4af6;
 }
 .sidebar_link {
   color: #949494 !important;
@@ -3295,7 +3295,7 @@ textarea {
   width: 100%;
 }
 .sidebar_item:hover .sidebar_link {
-  color: #24bee8 !important;
+  color: #0b4af6 !important;
 }
 .sidebar_item.active .sidebar_link {
   color: #fff !important;
@@ -3337,7 +3337,7 @@ textarea {
 }
 .activity_description_text_part ul li,
 .news_full ul li {
-  color: #24bee8;
+  color: #0b4af6;
   line-height: 2rem;
   margin-left: 1rem;
 }
