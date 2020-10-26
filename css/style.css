@@ -614,7 +614,7 @@ button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-  background: url("../images/banner-bg.jpg") no-repeat fixed;
+  background: url("../images/content/Guascor.jpg") no-repeat fixed;
   background-position: center;
   text-align: center;
   position: relative;
@@ -3038,4 +3038,229 @@ button:hover {
 
 .img_scale:hover {
   transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.licenses {
+  background-color: #f8f8f8;
+  padding-bottom: 5%;
+}
+.licenses_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.licenses_list_item {
+  width: 49%;
+  /* height: 840px; */
+  box-shadow: 0 0 5px 5px rgba(200, 200, 200, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.45s ease-out;
+  /* margin-top: 5%; */
+  margin-top: 2.3%;
+  background-color: #fff;
+}
+.licenses_list_item:hover {
+  box-shadow: none;
+}
+.licenses_list_item a {
+  width: 90%;
+  height: 90%;
+  display: block;
+  padding: 5%;
+}
+.licenses_list_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .licenses_list_item {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .licenses_list {
+    padding-left: 0;
+  }
+}
+
+/* //////////////////////////////////////////////// */
+/* Gallery slider */
+.cssSlider {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.cssSlider .slides {
+  overflow: hidden;
+  overflow: hidden;
+  width: 100%;
+  height: 70vmin;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cssSlider .slides > li {
+  width: 100%;
+  height: 70vmin;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+.cssSlider .slides > li > img {
+  width: 100%;
+  height: auto;
+}
+/*
+.cssSlider .slides > li:first-child:not(:target) {
+	z-index: 1;
+	-webkit-transform: translateY(0%);
+	        transform: translateY(0%);
+}
+*/
+
+.contact_screen {
+  padding: 5% 0;
+}
+
+.contact_holder {
+  box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+  background-color: #fff;
+}
+
+.contact_holder {
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 650px) {
+  .contact_holder {
+    flex-direction: column;
+  }
+}
+.contact_page_list {
+  list-style: none;
+  display: flex;
+  /*    justify-content: space-between;*/
+  padding-left: 15px;
+  width: 50%;
+  flex-direction: column;
+  background-image: url(../images/content/MWM_black_2.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_page_list_item {
+  /*    width: 25%;*/
+  width: 70%;
+  padding-bottom: 4%;
+  margin-bottom: 4%;
+}
+
+.contact_page_list_item p,
+.contact_page_list_item a {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+}
+.contact_page_list_item strong {
+  color: #fff;
+}
+.contact_page_list_item:not(:last-of-type) {
+  /*    border-bottom: 1px solid #e6e6e6;*/
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+/*
+.contact_page_list_item:not(:first-of-type){
+    padding-left: 3%;
+    width: 20%;
+}
+*/
+.contact_page_list_item a {
+  display: block;
+  /*    color:#fff;*/
+  transition: 0.45s ease-out;
+  text-decoration: none;
+}
+.contact_page_list_item a:hover {
+  /*    color:#b6b6b6;*/
+  color: rgba(255, 255, 255, 0.8);
+  /*    opacity:.5;*/
+}
+
+.contact_page_list {
+  width: 100%;
+  padding: 5%;
+  align-items: flex-start;
+}
+
+.form_holder {
+  width: 50%;
+  padding: 5% 3%;
+}
+
+@media screen and (max-width: 650px) {
+  .form_holder {
+    width: 90%;
+  }
+}
+
+.input,
+.textarea {
+  border: 1px solid #ececec !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.headline {
+  padding-bottom: 30px;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  font: 700 18px/59px "Roboto", sans-serif;
+  width: 180px;
+  text-align: center;
+  background: #0b4af6;
+  display: block;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  padding: 0;
 }
