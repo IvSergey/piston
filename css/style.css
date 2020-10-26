@@ -3218,7 +3218,7 @@ button:hover {
 }
 
 input[type="text"],
-input[type="password"],
+input[type="phone"],
 input[type="date"],
 input[type="datetime"],
 input[type="datetime-local"],
@@ -3260,4 +3260,112 @@ textarea {
   position: relative;
   z-index: 2;
   padding: 0;
+}
+
+/* ///////////////////////////////////////////// */
+.activity {
+  padding: 5% 0;
+}
+.activity .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.sidebar {
+  width: 25%;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px rgba(200, 200, 200, 0.1);
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.sidebar_item {
+  padding: 1rem 1rem;
+  transition: 0.45s ease-out;
+}
+.sidebar_item.active {
+  background-color: #24bee8;
+}
+.sidebar_link {
+  color: #949494 !important;
+  text-decoration: none !important;
+  transition: 0.45s ease-out;
+  display: inline-block;
+  width: 100%;
+}
+.sidebar_item:hover .sidebar_link {
+  color: #24bee8 !important;
+}
+.sidebar_item.active .sidebar_link {
+  color: #fff !important;
+}
+.activity_description {
+  width: 65%;
+}
+.activity_description_title_part {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.activity_title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #101010;
+  margin-top: 5%;
+}
+.activity_description_text_part {
+  padding-top: 20px;
+  font-weight: 300;
+  letter-spacing: 0.035em;
+}
+
+.activity_description_text_part h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #151515;
+}
+.activity_description_text_part h4 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.activity_description_text_part ul,
+.news_full ul {
+  list-style: disc;
+  margin-top: 10px;
+}
+.activity_description_text_part ul li,
+.news_full ul li {
+  color: #24bee8;
+  line-height: 2rem;
+  margin-left: 1rem;
+}
+.activity_description_text_part ul li p,
+.news_full ul li p {
+  color: #202020;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar {
+    width: 100%;
+  }
+  .activity_description {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+.sevices__banner-pic {
+  width: 100%;
+  height: 50%;
+}
+
+h2 a {
+  color: #222222;
+}
+
+.title__white {
+  color: white;
 }
