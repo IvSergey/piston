@@ -3248,10 +3248,7 @@ textarea {
   padding-bottom: 30px;
 }
 
-button,
-input[type="reset"],
-input[type="submit"],
-input[type="button"] {
+.btn_send {
   font: 700 18px/59px "Roboto", sans-serif;
   width: 180px;
   text-align: center;
