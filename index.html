@@ -13,13 +13,13 @@
     <link href="vendors/animate/animate.css" rel="stylesheet">
     <!-- Icon CSS-->
     <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
-    <!-- Camera Slider -->
-    <link rel="stylesheet" href="vendors/camera-slider/camera.css">
     <!-- Owlcarousel CSS-->
     <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
 
     <!--Theme Styles CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
 </head>
 
 <body>
@@ -34,7 +34,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo/logo_2.png" alt="логотип ЭМС"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo/EMS_logo3.svg"
+                            alt="логотип ЭМС"></a>
                 </div>
             </div>
             <div class="col-md-10 p0">
@@ -51,14 +52,13 @@
             </div>
         </div>
     </nav>
-    <section class="slider_area row m0">
-        <div class="slider_inner">
-            <div data-thumb="images/content/slider_1.jpg" data-src="images/content/slider_1.jpg"></div>
-            <div data-thumb="images/content/slider_2.jpg" data-src="images/content/slider_2.jpg"></div>
-            <div data-thumb="images/content/slider_3.jpg" data-src="images/content/slider_3.jpg"></div>
-            <div data-thumb="images/content/slider_4.jpg" data-src="images/content/slider_4.jpg"></div>
-        </div>
-    </section>
+    <div class="slider">
+        <div><img src="images/content/slider_1.jpg" alt=""></div>
+        <div><img src="images/content/slider_2.jpg" alt=""></div>
+        <div><img src="images/content/slider_9.jpg" alt=""></div>
+        <div><img src="images/content/slider_4.jpg" alt=""></div>
+
+    </div>
     <section class="about_us_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -70,7 +70,7 @@
                         <h2>КТО МЫ</h2>
                     </div>
                     <p>Компания «Энергомоторсервис» является многопрофильной компанией, которая обеспечивает
-                        комплекс услуг в сфере малой энергетики и промышленного строительства по всей России. Мы
+                        комплекс услуг в сфере малой энергетики по всей России. Мы
                         предоставляем следующие услуги:<br>
 
                         1. Техническое обслуживание и ремонт дизельных и газопоршневых
@@ -95,7 +95,20 @@
             <div class="row construction_iner">
                 <div class="col-md-4 col-sm-6 construction">
                     <div class="cns-img">
-                        <img src="images/content/gallery_36.jpg" alt="техническое обслуживание">
+                        <img src="images/content/gallery_36.jpg" alt="ремонт оборудования">
+                    </div>
+                    <div class="cns-content">
+                        <i class="fa fa-wrench" aria-hidden="true"></i>
+                        <a href="repair.html">Ремонт <br>оборудования</a>
+                        <p>Текущий ремонт - это комплекс операций по
+                            восстановлению ресурсов изделий или их составных частей, что предотвращает необходимость
+                            капитальных ремонтов.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 construction">
+                    <div class="cns-img">
+                        <img src="images/content/gallery_1.jpg" alt="техническое обслуживание">
                     </div>
                     <div class="cns-content">
                         <i class="fa fa-gavel" aria-hidden="true"></i>
@@ -116,19 +129,7 @@
                             оборудования в будущем. </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 construction">
-                    <div class="cns-img">
-                        <img src="images/content/gallery_1.jpg" alt="ремонт оборудования">
-                    </div>
-                    <div class="cns-content">
-                        <i class="fa fa-wrench" aria-hidden="true"></i>
-                        <a href="repair.html">Ремонт <br>оборудования</a>
-                        <p>Текущий ремонт - это комплекс операций по
-                            восстановлению ресурсов изделий или их составных частей, что предотвращает необходимость
-                            капитальных ремонтов.
-                        </p>
-                    </div>
-                </div>
+
                 <div class="col-md-6 col-sm-6 construction">
                     <div class="cns-img">
                         <img src="images/content/gallery_37.jpg" alt="калибровка оборудования">
@@ -161,18 +162,19 @@
     <section class="our_partners_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
-                <h2><a href="certificates.html">Наши лицензии</a></h2>
+                <h2><a href="certificates.html">Наши лицензии и сертификаты</a></h2>
             </div>
             <p class="partners">
                 <img src="images/certificates/ISO_1.png"
                     alt="Сертификат ИСО  (ISO 9001.2015, ISO 14001.2015, OHSAS 18001.2007)">
-                <img src=" images/certificates/ISO_2.png"
-                    alt="Сертификат ИСО  (ISO 9001.2015, ISO 14001.2015, OHSAS 18001.2007)_0001">
-                <img src=" images/certificates/ISO_3.png"
-                    alt="Сертификат ИСО  (ISO 9001.2015, ISO 14001.2015, OHSAS 18001.2007)_0002">
                 <img src=" images/certificates/ISO_4.png" alt="Разрешение на использование знака ИСО">
-                <img src=" images/certificates/ISO_5.png" alt="Разрешение на использование знака ИСО_0001">
-                <img src=" images/certificates/ISO_6.png" alt="Разрешение на использование знака ИСО_0002">
+                <img src="images/certificates/cert_1.png" alt="сертификат Wartsila(Седун А.А.)">
+                <img src="images/certificates/cert_2.png" alt="сертификат Wartsila(Седун А.А.)">
+                <img src="images/certificates/cert_3.png" alt="сертификат Wartsila(Седун А.А.)">
+                <img src="images/certificates/cert_5.png" alt="сертификат MWM KK2(Чечко В.О.)">
+                <img src="images/certificates/cert_8.png" alt="сертификат Guascor(Филатов Д.В.)">
+                <img src="images/certificates/cert_14.png" alt="сертификат MTU(Щевелев С.В.)">
+                <img src="images/certificates/cert_6.png" alt="сертификат MWM KK1(Чечко В.О.)">
             </p>
         </div>
     </section>
@@ -214,13 +216,23 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Animate JS -->
     <script src="vendors/animate/wow.min.js"></script>
-    <!-- Camera Slider -->
-    <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
-    <script src="vendors/camera-slider/camera.min.js"></script>
     <!-- Owlcarousel JS -->
     <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                mode: 'fade',
+                pager: false,
+                controls: false,
+            });
+        });
+    </script>
+
 </body>
 
 </html>

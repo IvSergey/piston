@@ -35,13 +35,14 @@
                 loader: true,
                 navigation: true,
                 autoPlay: false,
-                time: 4000,
+                time: 4000000000,
                 playPause: false,
                 pagination: false,
                 thumbnails: false,
                 overlayer: true,
                 hover: false,
                 minHeight: '500px',
+
             });
         }
     }

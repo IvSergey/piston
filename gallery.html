@@ -23,33 +23,8 @@
 
     <!--Theme Styles CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/style1.css" />
-    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-    <noscript>
-        <style>
-            .es-carousel ul {
-                display: block;
-            }
-        </style>
-    </noscript>
-    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
-			<div class="rg-image-wrapper">
-				{{if itemsCount > 1}}
-					<div class="rg-image-nav">
-						<a href="#" class="rg-image-nav-prev">Previous Image</a>
-						<a href="#" class="rg-image-nav-next">Next Image</a>
-					</div>
-				{{/if}}
-				<div class="rg-image"></div>
-				<div class="rg-loading"></div>
-				<div class="rg-caption-wrapper">
-					<div class="rg-caption" style="display:none;">
-						<p></p>
-					</div>
-				</div>
-			</div>
-		</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
 </head>
 
 <body>
@@ -64,7 +39,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo/logo_2.png" alt="логотип ЭМС"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo/EMS_logo3.svg"
+                            alt="логотип ЭМС"></a>
                 </div>
             </div>
             <div class="col-md-10 p0">
@@ -88,123 +64,69 @@
             <li><a href="gallery.html" class="active">Галерея</a></li>
         </ol>
     </section>
-    <section>
-        <div class="content">
-            <div id="rg-gallery" class="rg-gallery">
-                <div class="rg-thumbs">
-                    <div class="es-carousel-wrapper">
-                        <div class="es-nav">
-                            <span class="es-nav-prev">Previous</span>
-                            <span class="es-nav-next">Next</span>
-                        </div>
-                        <div class="es-carousel">
-                            <ul>
-                                <li><a href="#"><img src="images/content/gallery_1.jpg"
-                                            data-large="images/content/gallery_1.jpg" alt="фото_1" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_2.jpg"
-                                            data-large="images/content/gallery_2.jpg" alt="фото_2" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_3.jpg"
-                                            data-large="images/content/gallery_3.jpg" alt="фото_3" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_4.jpg"
-                                            data-large="images/content/gallery_4.jpg" alt="фото_4" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_5.jpg"
-                                            data-large="images/content/gallery_5.jpg" alt="фото_5" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_6.jpg"
-                                            data-large="images/content/gallery_6.jpg" alt="фото_6" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_7.jpg"
-                                            data-large="images/content/gallery_7.jpg" alt="фото_7" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_8.jpg"
-                                            data-large="images/content/gallery_8.jpg" alt="фото_8" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_9.jpg"
-                                            data-large="images/content/gallery_9.jpg" alt="фото_9" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_10.jpg"
-                                            data-large="images/content/gallery_10.jpg" alt="фото_10" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_11.jpg"
-                                            data-large="images/content/gallery_11.jpg" alt="фото_11" /></a>
-                                </li>
+    <section class="slider container">
 
-                                <li><a href="#"><img src="images/content/gallery_13.jpg"
-                                            data-large="images/content/gallery_13.jpg" alt="фото_12" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_14.jpg"
-                                            data-large="images/content/gallery_14.jpg" alt="фото_13" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_15.jpg"
-                                            data-large="images/content/gallery_15.jpg" alt="фото_14" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_16.jpg"
-                                            data-large="images/content/gallery_16.jpg" alt="фото_15" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_17.jpg"
-                                            data-large="images/content/gallery_17.jpg" alt="фото_16" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_18.jpg"
-                                            data-large="images/content/gallery_18.jpg" alt="фото_17" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_19.jpg"
-                                            data-large="images/content/gallery_19.jpg" alt="фото_18" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_21.jpg"
-                                            data-large="images/content/gallery_21.jpg" alt="фото_19" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_22.jpg"
-                                            data-large="images/content/gallery_22.jpg" alt="фото_20" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_23.jpg"
-                                            data-large="images/content/gallery_23.jpg" alt="фото_21" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_24.jpg"
-                                            data-large="images/content/gallery_24.jpg" alt="фото_22" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_25.jpg"
-                                            data-large="images/content/gallery_25.jpg" alt="фото_23" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_26.jpg"
-                                            data-large="images/content/gallery_26.jpg" alt="фото_24" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_27.jpg"
-                                            data-large="images/content/gallery_27.jpg" alt="фото_25" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_28.jpg"
-                                            data-large="images/content/gallery_28.jpg" alt="фото_26" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_29.jpg"
-                                            data-large="images/content/gallery_29.jpg" alt="фото_27" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_30.jpg"
-                                            data-large="images/content/gallery_30.jpg" alt="фото_28" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_31.jpg"
-                                            data-large="images/content/gallery_31.jpg" alt="фото_29" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_32.jpg"
-                                            data-large="images/content/gallery_32.jpg" alt="фото_30" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_33.jpg"
-                                            data-large="images/content/gallery_33.jpg" alt="фото_31" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_34.jpg"
-                                            data-large="images/content/gallery_34.jpg" alt="фото_32" /></a>
-                                </li>
-                                <li><a href="#"><img src="images/content/gallery_35.jpg"
-                                            data-large="images/content/gallery_35.jpg" alt="фото_33" /></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <ul class="bxslider">
+            <li><img src="images/content/gallery_1.jpg" title="Технологический процесс" />
+            </li>
+            <li><img src="images/content/gallery_2.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_3.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_4.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_5.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_6.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_7.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_8.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_9.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_10.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_11.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_13.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_14.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_15.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_16.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_17.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_18.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_19.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_21.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_22.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_23.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_24.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_25.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_26.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_27.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_28.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_34.jpg" title="Технологический процесс" /></li>
+            <li><img src="images/content/gallery_35.jpg" title="Технологический процесс" /></li>
+
+        </ul>
+        <div id="bx-pager">
+            <a data-slide-index="0" href=""><img src="images/content/gallery_1.jpg" /></a>
+            <a data-slide-index="1" href=""><img src="images/content/gallery_2.jpg" /></a>
+            <a data-slide-index="2" href=""><img src="images/content/gallery_3.jpg" /></a>
+            <a data-slide-index="3" href=""><img src="images/content/gallery_4.jpg" /></a>
+            <a data-slide-index="4" href=""><img src="images/content/gallery_5.jpg" /></a>
+            <a data-slide-index="5" href=""><img src="images/content/gallery_6.jpg" /></a>
+            <a data-slide-index="6" href=""><img src="images/content/gallery_7.jpg" /></a>
+            <a data-slide-index="7" href=""><img src="images/content/gallery_8.jpg" /></a>
+            <a data-slide-index="8" href=""><img src="images/content/gallery_9.jpg" /></a>
+            <a data-slide-index="9" href=""><img src="images/content/gallery_10.jpg" /></a>
+            <a data-slide-index="10" href=""><img src="images/content/gallery_11.jpg" /></a>
+            <a data-slide-index="11" href=""><img src="images/content/gallery_13.jpg" /></a>
+            <a data-slide-index="12" href=""><img src="images/content/gallery_14.jpg" /></a>
+            <a data-slide-index="13" href=""><img src="images/content/gallery_15.jpg" /></a>
+            <a data-slide-index="14" href=""><img src="images/content/gallery_16.jpg" /></a>
+            <a data-slide-index="15" href=""><img src="images/content/gallery_17.jpg" /></a>
+            <a data-slide-index="16" href=""><img src="images/content/gallery_18.jpg" /></a>
+            <a data-slide-index="17" href=""><img src="images/content/gallery_19.jpg" /></a>
+            <a data-slide-index="18" href=""><img src="images/content/gallery_21.jpg" /></a>
+            <a data-slide-index="19" href=""><img src="images/content/gallery_22.jpg" /></a>
+            <a data-slide-index="20" href=""><img src="images/content/gallery_23.jpg" /></a>
+            <a data-slide-index="21" href=""><img src="images/content/gallery_24.jpg" /></a>
+            <a data-slide-index="22" href=""><img src="images/content/gallery_25.jpg" /></a>
+            <a data-slide-index="23" href=""><img src="images/content/gallery_26.jpg" /></a>
+            <a data-slide-index="24" href=""><img src="images/content/gallery_27.jpg" /></a>
+            <a data-slide-index="25" href=""><img src="images/content/gallery_28.jpg" /></a>
+            <a data-slide-index="31" href=""><img src="images/content/gallery_34.jpg" /></a>
+            <a data-slide-index="32" href=""><img src="images/content/gallery_35.jpg" /></a>
         </div>
     </section>
     <footer class=" footer_area">
@@ -214,6 +136,7 @@
                     <img src="images/logo/logo_1.png" alt="логотип ЭМС">
                     <ul class="socail_icon">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -232,6 +155,7 @@
                                         Ф,
                                         помещение 8-Н, офис 413 </span></a></li>
                         </ul>
+
                     </address>
                 </div>
             </div>
@@ -241,9 +165,18 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="vendors/animate/wow.min.js"></script>
     <script src="js/theme.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
-    <script type="text/javascript" src="js/gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                nextText: '',
+                prevText: '',
+                pagerCustom: '#bx-pager',
+                captions: true,
+                adaptiveHeight: true
+
+            });
+        });
+    </script>
 </body>
