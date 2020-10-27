@@ -88,12 +88,12 @@
     };
 
     //* Stellar 
-    $(function () {
-        $.stellar({
-            horizontalScrolling: false,
-            verticalOffset: 40
-        });
-    });
+    // $(function () {
+    //     $.stellar({
+    //         horizontalScrolling: false,
+    //         verticalOffset: 40
+    //     });
+    // });
 
     //* counterUp JS
     function counterUp() {
