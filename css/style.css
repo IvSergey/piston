@@ -524,11 +524,12 @@ button:hover {
 }
 
 .what_we_area {
-  background: #0b4af6;
+  /* background: #0b4af6; */
+  background: rgb(0 0 0 / 10%);
 }
-.what_we_area .tittle h2:after {
+/* .what_we_area .tittle h2:after {
   background: #fff;
-}
+} */
 .what_we_area .tittle h4 {
   color: #333;
 }
@@ -621,17 +622,18 @@ button:hover {
 }
 
 .footer_area {
-  background: url("../images/content/INDUSTRIALS_1920x525.png") no-repeat;
+  /* background: url("../images/content/INDUSTRIALS_1920x525.png") no-repeat; */
   position: relative;
   background-size: cover;
   background-position: center;
   z-index: 1;
+  box-shadow: 0px 0px 20px 0px rgba(21, 47, 95, 0.2);
 }
 .footer_area:after {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(0 0 0 / 10%);
   left: 0;
   right: 0;
   bottom: 0;
@@ -639,8 +641,8 @@ button:hover {
   z-index: -1;
 }
 .footer_area .footer_row {
-  padding-top: 95px;
-  padding-bottom: 50px;
+  padding-top: 5%;
+  /* padding-bottom: 50px; */
 }
 .footer_area .footer_row .footer_about {
   padding-bottom: 50px;
@@ -698,7 +700,7 @@ button:hover {
 }
 .footer_area .footer_row .footer_about .socail_icon li a i {
   font-size: 14px;
-  color: #fff;
+  /* color: #fff; */
   display: inline-block;
   padding-top: 7px;
 }
@@ -761,7 +763,7 @@ button:hover {
 }
 .footer_area .footer_row .footer_about address .my_address li a {
   font: 400 14px/28px "Roboto", sans-serif;
-  color: #fff;
+  color: rgb(34, 34, 34);
 }
 .footer_area .footer_row .footer_about address .my_address li a i {
   color: #0b4af6;
