@@ -645,7 +645,7 @@ button:hover {
   /* padding-bottom: 50px; */
 }
 .footer_area .footer_row .footer_about {
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .footer_area .footer_row .footer_about h2 {
   font: 400 18px "Oswald", sans-serif;
@@ -1346,4 +1346,148 @@ h2 a {
 .slider {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+.about__text {
+  font-size: 2rem;
+  padding-top: 70px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.mission_list {
+  /*    width: 60%;*/
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+}
+.mission_list_item {
+  width: 46%;
+}
+.mission_list_item p {
+  margin-bottom: 0;
+}
+.mission_list_item:nth-child(odd) {
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+  padding-right: 4%;
+}
+.mission_list_item:nth-child(1),
+.mission_list_item:nth-child(2) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3%;
+}
+.mission_list_item:nth-child(3),
+.mission_list_item:nth-child(4) {
+  padding-top: 3%;
+}
+.mission_list_item:nth-child(even) {
+  padding-left: 4%;
+}
+.values {
+  padding: 5% 0;
+  /*    background-color: #333;*/
+  background: linear-gradient(to bottom, #333 50%, #fff 50%);
+  position: relative;
+}
+.values_card {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.04);
+  padding: 5% 3%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.values_list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /*    box-shadow:0 0 5px 5px rgba(0,0,0,.1);*/
+}
+.value_icon {
+  width: 60px;
+}
+.values_list_item {
+  width: 29%;
+  padding: 2%;
+}
+.values_list_item:not(:nth-child(3n)) {
+  border-right: 1px solid #eee;
+}
+.values_list_item:not(:nth-child(n + 4)) {
+  border-bottom: 1px solid #eee;
+}
+.value_title {
+  font-size: 1rem;
+  /*    font-weight:600;*/
+  margin-bottom: 0;
+  line-height: 1em;
+  margin-top: 20px;
+}
+.value_desc {
+  margin-bottom: 0;
+  line-height: 1.4em;
+  margin-top: 15px;
+  color: #898989;
+}
+.values_bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/values_bg2.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*    background-position-y: 100%;*/
+  background-attachment: fixed;
+}
+.values_bg_white_part {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mission_list_item {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 5% 0;
+  }
+  .mission_list_item:last-of-type {
+    border-bottom: none;
+  }
+  .mission_list_item:nth-child(even) {
+    padding-left: 0;
+  }
+  .mission_list_item:nth-child(odd) {
+    padding-right: 0;
+  }
+  .mission_list_item:nth-child(odd) {
+    border-right: none;
+  }
+  .values_card .headline {
+    text-align: center;
+  }
+  .values_list_item {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 10% 0;
+    text-align: center;
+  }
+  .values_list_item:last-of-type {
+    border-bottom: none;
+  }
+  .values_list_item:not(:nth-child(3n)) {
+    border-right: none;
+  }
+  .timeline .right-side,
+  .timeline .left-side {
+    margin-top: 0 !important;
+    padding: 5% 0;
+  }
 }
