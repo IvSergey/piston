@@ -222,7 +222,7 @@ button:hover {
 
 /* Header Aera */
 .header_aera {
-  background: #fff;
+  background: #f5f5f5;
   border-radius: 0;
   border: 0;
   margin: 0;
@@ -464,7 +464,7 @@ button:hover {
 }
 
 .about_us_area {
-  background: #fefefe;
+  background: #f5f5f5;
 }
 .about_us_area .about_row {
   padding-top: 70px;
@@ -525,7 +525,7 @@ button:hover {
 
 .what_we_area {
   /* background: #0b4af6; */
-  background: rgb(0 0 0 / 10%);
+  background: #f0ebeb;
 }
 /* .what_we_area .tittle h2:after {
   background: #fff;
@@ -622,7 +622,7 @@ button:hover {
 }
 
 .footer_area {
-  /* background: url("../images/content/INDUSTRIALS_1920x525.png") no-repeat; */
+  background: url("../images/content/INDUSTRIALS_1920x525.png") no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -633,7 +633,8 @@ button:hover {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgb(0 0 0 / 10%);
+  /* background-color: rgb(0 0 0 / 10%); */
+  background-color: rgba(0, 0, 0, 0.8);
   left: 0;
   right: 0;
   bottom: 0;
@@ -700,7 +701,7 @@ button:hover {
 }
 .footer_area .footer_row .footer_about .socail_icon li a i {
   font-size: 14px;
-  /* color: #fff; */
+  color: #fff;
   display: inline-block;
   padding-top: 7px;
 }
@@ -763,7 +764,8 @@ button:hover {
 }
 .footer_area .footer_row .footer_about address .my_address li a {
   font: 400 14px/28px "Roboto", sans-serif;
-  color: rgb(34, 34, 34);
+  /* color: rgb(34, 34, 34); */
+  color: #fff;
 }
 .footer_area .footer_row .footer_about address .my_address li a i {
   color: #0b4af6;
@@ -1044,6 +1046,7 @@ button:hover {
 
 .contact_screen {
   padding: 5% 0;
+  background: #f5f5f5;
 }
 
 .contact_holder {
@@ -1175,6 +1178,7 @@ textarea {
 
 .activity {
   padding: 5% 0;
+  background: #f5f5f5;
 }
 .activity .container {
   display: flex;
@@ -1353,6 +1357,10 @@ h2 a {
   padding-top: 70px;
   margin-bottom: 10%;
   text-align: center;
+}
+
+.mission_screen {
+  background: #fffefe;
 }
 
 .mission_list {
